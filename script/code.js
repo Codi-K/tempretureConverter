@@ -6,7 +6,7 @@ function temperatureCelsius(){
 
     let calculationCelsius = ((celsius * 1.8) + 32).toFixed(2);
     result.innerText = calculationCelsius;
-    
+
     
 }
 
