@@ -4,7 +4,7 @@ function temperatureCelsius(){
     let celsius = +document.querySelector("#C-screen").value;
     let result = document.querySelector("#answer")
 
-    let calculationCelsius = (celsius * 1.8) + 32;
+    let calculationCelsius = ((celsius * 1.8) + 32).toFixed(2);
     result.innerText = calculationCelsius;
     
     
