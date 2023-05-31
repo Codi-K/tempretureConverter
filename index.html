@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- custom styling -->
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Temperature Converter</title>
+</head>
+<body>
+    <!-- temperature convertor -->
+    <div class="container">
+        <h2 class="heading">Temperature Convertor</h2>
+        <div class="celsius">
+            <h3>Convert from celeius to fahrenheit</h3>
+            <input type="number" name="celsius" id="C-screen">
+            <button class="c-f" onclick="temperatureCelsius()">Convert</button>
+        </div>
+        <div class="fahrenheit">
+            <h3>Convert from fahrenheit to celsius</h3>
+            <input type="number" name="fahrenheit" id="F-screen">
+            <button class="f-c" onclick="temperatureFahrenheit()">Convert</button>
+        </div>
+        <div class="answerplace">
+            <h1 id="answer">
+
+            </h1>
+        </div>
+    </div>
+
+    <!-- custom script -->
+    <script src="./script/code.js"></script>
+</body>
+</html>
