@@ -12,7 +12,7 @@ body{
 
 .container{
     border: 2px solid blue;
-    width: 20rem;
+    width: 18rem;
     margin: auto;
     text-align: center;
     padding: 2rem;
@@ -61,4 +61,5 @@ button:hover{
 #C-screen, #F-screen{
     padding: 0.5rem;
     font-size: large;
+    width: 10rem    ;
 }
